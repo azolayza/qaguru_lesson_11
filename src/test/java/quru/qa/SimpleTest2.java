@@ -7,6 +7,6 @@ public class SimpleTest2 {
 
     @Test
     void testAssert(){
-        Assertions.assertTrue(3>1);
+        Assertions.fail();
     }
 }
